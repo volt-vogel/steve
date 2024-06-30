@@ -67,9 +67,9 @@ SteVe is designed to run standalone, a java servlet container / web server (e.g.
 
     The basic configuration is defined in [main.properties](src/main/resources/config/prod/main.properties):
       - You _must_ change [database configuration](src/main/resources/config/prod/main.properties#L9-L13)
-      - You _must_ change [the host](src/main/resources/config/prod/main.properties#L22) to the correct IP address of your server
+      - You _must_ change [the host](src/main/resources/config/prod/main.properties#L28) to the correct IP address of your server
       - You _must_ change [web interface credentials](src/main/resources/config/prod/main.properties#L17-L18)
-      - You _can_ access the application via HTTPS, by [enabling it and setting the keystore properties](src/main/resources/config/prod/main.properties#L32-L35)
+      - You _can_ access the application via HTTPS, by [enabling it and setting the keystore properties](src/main/resources/config/prod/main.properties#L38-L41)
      
     For advanced configuration please see the [Configuration wiki](https://github.com/steve-community/steve/wiki/Configuration)
 
